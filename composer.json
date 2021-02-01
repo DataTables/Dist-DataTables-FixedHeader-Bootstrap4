@@ -1,0 +1,27 @@
+
+{
+	"name": "datatables.net/datatables.net-fixedheader-bs4",
+	"version": "3.1.7",
+	"description": "DataTables is a plug-in for the jQuery Javascript library. It is a highly flexible tool, based upon the foundations of progressive enhancement, which will add advanced interaction controls to any HTML table. This is the FixedHeader extension for DataTables.", 
+	"homepage": "http://www.datatables.net/",
+	"authors": [{
+		"name": "SpryMedia",
+		"homepage": "https://datatables.net"
+	}], 
+	"license": [
+		"MIT"
+	],
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+	"support": {
+		"forum": "https://datatables.net/forums",
+		"source": "https://github.com/DataTables/Dist-DataTables-FixedHeader-Bootstrap4/"
+    },
+    "keywords": ["DataTables", "jQuery", "table", "fixedheader", "Bootstrap4"],
+    "require": {
+        "components/jquery":">=3.5.1",
+        "datatables.net/datatables.net":">=1.10.15",
+        "datatables.net/datatables.net-fixedheader":">=3.1.7",
+        "twbs/bootstrap": "4.*"
+    }
+}
