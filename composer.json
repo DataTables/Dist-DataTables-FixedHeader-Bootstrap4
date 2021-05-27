@@ -1,27 +1,35 @@
-
 {
-	"name": "datatables.net/datatables.net-fixedheader-bs4",
-	"version": "3.1.7",
-	"description": "DataTables is a plug-in for the jQuery Javascript library. It is a highly flexible tool, based upon the foundations of progressive enhancement, which will add advanced interaction controls to any HTML table. This is the FixedHeader extension for DataTables.", 
-	"homepage": "http://www.datatables.net/",
-	"authors": [{
-		"name": "SpryMedia",
-		"homepage": "https://datatables.net"
-	}], 
-	"license": [
-		"MIT"
-	],
+    "version": "3.1.8",
+    "name": "datatables.net/datatables.net-fixedheader-bs4",
+    "description": "When displaying large amounts of data in a table, it can often be useful for the end user to have the column titles always visible. This is particularly true if using DataTables with pagination disabled, or the display length is set to a high value. The FixedHeader extension provides this ability. This is FixedHeader for DataTables with styling for [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/)",
+    "support": {
+        "forum": "https://datatables.net/forums",
+        "source": "https://github.com/DataTables/Dist-DataTables-FixedHeader-Bootstrap4"
+    },
+    "homepage": "http://www.datatables.net/",
+    "authors": [
+        {
+            "name": "SpryMedia",
+            "homepage": "https://datatables.net"
+        }
+    ],
+    "license": [
+        "MIT"
+    ],
     "prefer-stable": true,
     "minimum-stability": "dev",
-	"support": {
-		"forum": "https://datatables.net/forums",
-		"source": "https://github.com/DataTables/Dist-DataTables-FixedHeader-Bootstrap4/"
-    },
-    "keywords": ["DataTables", "jQuery", "table", "fixedheader", "Bootstrap4"],
+    "keywords": [
+        "FixedHeader",
+ "Fixed Headers",
+ "Sticky",
+        "Bootstrap",
+ "Bootstrap4",
+        "Datatables",
+        "jQuery",
+        "table"
+    ],
     "require": {
-        "components/jquery":">=3.5.1",
-        "datatables.net/datatables.net":">=1.10.15",
-        "datatables.net/datatables.net-fixedheader":">=3.1.7",
-        "twbs/bootstrap": "4.*"
+        "datatables.net/datatables.net-fixedheader": ">=3.1.8",
+        "datatables.net/datatables.net-bs4": ">=1.10.24"
     }
 }

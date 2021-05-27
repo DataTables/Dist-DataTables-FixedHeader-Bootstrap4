@@ -1,31 +1,49 @@
 {
     "name": "datatables.net-fixedheader-bs4",
+    "description": "FixedHeader for DataTables with styling for [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/)",
+    "main": "js/fixedHeader.bootstrap4.js",
+    "style": "css/fixedHeader.bootstrap4.css",
     "version": "3.1.8",
-    "description": "FixedHeader for DataTables with styling for [Bootstrap 4](http://getbootstrap.com/)",
     "files": [
         "css/**/*.css",
         "js/**/*.js"
     ],
-    "main": "js/fixedHeader.bootstrap4.js",
     "keywords": [
-        "fixed headers",
-        "sticky",
-        "DataTables",
+        "FixedHeader",
+ "Fixed Headers",
+ "Sticky",
+        "Bootstrap",
+ "Bootstrap4",
+        "Datatables",
         "jQuery",
         "table",
-        "Bootstrap 4"
+        "filter",
+        "sort"
     ],
-    "homepage": "https://datatables.net",
-    "bugs": "https://datatables.net/forums",
-    "license": "MIT",
+    "dependencies": {
+        "datatables.net-fixedheader": ">=3.1.8",
+        "datatables.net-bs4": ">=1.10.24",
+        "jquery": ">=1.7"
+    },
+    "moduleType": [
+        "globals",
+        "amd",
+        "node"
+    ],
+    "ignore": [
+        "composer.json",
+        "datatables.json",
+        "package.json"
+    ],
     "author": {
         "name": "SpryMedia Ltd",
         "url": "http://datatables.net"
     },
-    "dependencies": {
-        "jquery": ">=1.7",
-        "datatables.net-bs4": "^1.10.15",
-        "datatables.net-fixedheader": "3.1.8"
-    },
-    "style": "css/fixedHeader.bootstrap4.css"
+    "homepage": "https://datatables.net",
+    "bugs": "https://datatables.net/forums",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DataTables/Dist-DataTables-FixedHeader-Bootstrap4.git"
+    }
 }
