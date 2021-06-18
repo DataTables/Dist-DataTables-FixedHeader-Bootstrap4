@@ -10,8 +10,8 @@
         <license type="expression">MIT</license>
         <tags>FixedHeader  Fixed Headers  Sticky  Bootstrap  Bootstrap4  Datatables jQuery table</tags>
         <dependencies>
-            <dependency id="datatables.net-fixedheader" version=">=3.1.8"/>
-            <dependency id="datatables.net-bs4" version=">=1.10.24"/>
+            <dependency id="datatables.net-fixedheader" version=">=3.1.9"/>
+            <dependency id="datatables.net-bs4" version=">=1.10.26-dev"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
