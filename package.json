@@ -2,12 +2,14 @@
     "name": "datatables.net-fixedheader-bs4",
     "description": "FixedHeader for DataTables with styling for [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/)",
     "main": "js/fixedHeader.bootstrap4.js",
+    "module": "js/fixedHeader.bootstrap4.mjs",
     "style": "css/fixedHeader.bootstrap4.css",
     "types": "./types/fixedHeader.bootstrap4.d.ts",
     "version": "3.2.4",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [
