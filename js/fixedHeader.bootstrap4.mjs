@@ -1,11 +1,10 @@
-
 /*! Bootstrap 4 styling wrapper for FixedHeader
  * © SpryMedia Ltd - datatables.net/license
  */
 
 import $ from 'jquery';
 import DataTable from 'datatables.net-bs4';
-import DataTable from 'datatables.net-fixedheader';
+import 'datatables.net-fixedheader';
 
 
 
