@@ -8,5 +8,4 @@ import FixedHeader from 'datatables.net-fixedheader';
 
 
 
-
 export default DataTable;
