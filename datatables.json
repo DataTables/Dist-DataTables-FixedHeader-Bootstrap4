@@ -10,10 +10,9 @@
         "css/fixedHeader.bootstrap4.min.css"
     ],
     "types": [
-        "types/fixedHeader.bootstrap4.d.ts",
-        "types/types.d.ts"
+        "types/fixedHeader.bootstrap4.d.ts"
     ],
     "src-repo": "http://github.com/DataTables/FixedHeader",
     "last-tag": "3.3.2",
-    "last-sync": "3b29ae779bcf224685d39a71480cef12601776ad"
+    "last-sync": ""
 }

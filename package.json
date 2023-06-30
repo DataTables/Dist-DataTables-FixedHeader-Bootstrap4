@@ -4,7 +4,7 @@
     "main": "js/fixedHeader.bootstrap4.js",
     "module": "js/fixedHeader.bootstrap4.mjs",
     "style": "css/fixedHeader.bootstrap4.css",
-    "types": "./types/types.d.ts",
+    "types": "./types/fixedHeader.bootstrap4.d.ts",
     "version": "3.3.2",
     "files": [
         "css/**/*.css",
@@ -14,10 +14,10 @@
     ],
     "keywords": [
         "FixedHeader",
-        "Fixed Headers",
-        "Sticky",
+ "Fixed Headers",
+ "Sticky",
         "Bootstrap",
-        "Bootstrap4",
+ "Bootstrap4",
         "Datatables",
         "jQuery",
         "table",
@@ -25,8 +25,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-fixedheader": ">=3.2.4",
-        "datatables.net-bs4": ">=1.12.1",
+        "datatables.net-fixedheader": ">=3.3.2",
+        "datatables.net-bs4": ">=1.13.4",
         "jquery": ">=1.7"
     },
     "moduleType": [
