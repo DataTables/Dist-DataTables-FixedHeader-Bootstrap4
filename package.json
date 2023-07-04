@@ -5,7 +5,7 @@
     "module": "js/fixedHeader.bootstrap4.mjs",
     "style": "css/fixedHeader.bootstrap4.css",
     "types": "./types/fixedHeader.bootstrap4.d.ts",
-    "version": "3.3.2",
+    "version": "3.4.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -14,10 +14,10 @@
     ],
     "keywords": [
         "FixedHeader",
- "Fixed Headers",
- "Sticky",
+        "Fixed Headers",
+        "Sticky",
         "Bootstrap",
- "Bootstrap4",
+        "Bootstrap4",
         "Datatables",
         "jQuery",
         "table",
