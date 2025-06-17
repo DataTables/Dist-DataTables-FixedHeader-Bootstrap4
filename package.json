@@ -5,7 +5,7 @@
     "module": "js/fixedHeader.bootstrap4.mjs",
     "style": "css/fixedHeader.bootstrap4.css",
     "types": "./types/fixedHeader.bootstrap4.d.ts",
-    "version": "4.0.2",
+    "version": "4.0.3",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -25,7 +25,7 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-fixedheader": "4.0.2",
+        "datatables.net-fixedheader": "4.0.3",
         "datatables.net-bs4": "^2",
         "jquery": ">=1.7"
     },
