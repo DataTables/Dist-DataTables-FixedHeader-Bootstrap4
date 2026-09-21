@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-fixedheader-bs4",
     "description": "FixedHeader for DataTables with styling for [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/)",
-    "main": "js/fixedHeader.bootstrap4.js",
-    "module": "js/fixedHeader.bootstrap4.mjs",
-    "style": "css/fixedHeader.bootstrap4.css",
+    "main": "./js/fixedHeader.bootstrap4.js",
+    "module": "./js/fixedHeader.bootstrap4.mjs",
+    "style": "./css/fixedHeader.bootstrap4.css",
     "types": "./types/fixedHeader.bootstrap4.d.ts",
     "version": "5.0.0",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "FixedHeader",
@@ -37,5 +36,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/FixedHeader.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/fixedHeader.bootstrap4.d.ts",
+            "import": "./js/fixedHeader.bootstrap4.mjs",
+            "default": "./js/fixedHeader.bootstrap4.mjs",
+            "require": "./js/fixedHeader.bootstrap4.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/fixedHeader.bootstrap4.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
