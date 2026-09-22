@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
-        <version>5.0.0</version>
+        <version>5.1.0</version>
         <id>datatables.net-fixedheader-bs4</id>
         <description>This is FixedHeader for DataTables with styling for [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/)</description>
         <repository type="git" url="https://github.com/DataTables/FixedHeader"/>
@@ -10,8 +10,8 @@
         <license type="expression">MIT</license>
         <tags>FixedHeader  Fixed Headers  Sticky  Bootstrap  Bootstrap4  Datatables table</tags>
         <dependencies>
-            <dependency id="datatables.net-fixedheader" version="5.0.0-beta.1"/>
-            <dependency id="datatables.net-bs4" version="2.3.2"/>
+            <dependency id="datatables.net-fixedheader" version="5.1.0"/>
+            <dependency id="datatables.net-bs4" version="^3.1"/>
         </dependencies>
         <contentFiles>
             <files include="**/*" buildAction="Content"/>
