@@ -1,4 +1,4 @@
-/*! FixedHeader Bootstrap 4 styling 5.0.0 for DataTables
+/*! FixedHeader Bootstrap 4 styling 5.1.0 for DataTables
  * Copyright (c) SpryMedia Ltd - datatables.net/license
  */
 
