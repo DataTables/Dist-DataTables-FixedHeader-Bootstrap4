@@ -40,9 +40,10 @@
     "exports": {
         ".": {
             "types": "./types/fixedHeader.bootstrap4.d.ts",
+            "style": "./css/fixedHeader.bootstrap4.css",
             "import": "./js/fixedHeader.bootstrap4.mjs",
-            "default": "./js/fixedHeader.bootstrap4.mjs",
-            "require": "./js/fixedHeader.bootstrap4.js"
+            "require": "./js/fixedHeader.bootstrap4.js",
+            "default": "./js/fixedHeader.bootstrap4.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
